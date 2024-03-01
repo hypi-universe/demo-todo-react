@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+}
+
+.todoapp {
+    margin: 200px 0 40px 0 !important;
+}
+
+
+.footer {
+    padding: 20px !important;
+	padding-bottom: 30px !important;
+}
+
+.toggle-all {
+	width: 40px !important;
+	height: 60px !important;
+	right: auto !important;
+}
+
+.toggle-all-label {
+	pointer-events: none;
+}

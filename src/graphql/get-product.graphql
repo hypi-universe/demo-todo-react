@@ -1,0 +1,13 @@
+query getProduct($id: String!) {
+  get(type: Product, id: $id) {
+    ...ProductFields
+  }
+}
+
+fragment ProductFields on Product {
+  hypi {
+    id
+  }
+  title
+  description
+}

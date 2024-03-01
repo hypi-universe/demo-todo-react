@@ -1,0 +1,7 @@
+mutation delete($arcql: String!, $clearArrayReferences: Boolean = false) {
+  delete(
+    type: Product
+    arcql: $arcql
+    clearArrayReferences: $clearArrayReferences
+  )
+}
